@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import { UserContext } from '../../App';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -8,7 +8,6 @@ import { faBiking } from '@fortawesome/free-solid-svg-icons';
 const Header = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
-    // console.log();
     return (
         <div className="header">
             <nav className="navbar navbar-expand-lg">
@@ -33,7 +32,7 @@ const Header = () => {
                             </li>
                             <li>
                                 {
-                                    !loggedInUser.isSignedIn ? <Link to="/login"><button className="btn btn-warning">Login</button></Link> : <p style={{ color: 'cyan',marginTop: '8px', fontWeight: 'bold' }}>{loggedInUser.name}</p>
+                                    !loggedInUser.isSignedIn ? <Link to="/login"><button className="btn btn-warning">Login</button></Link> : <p style={{ color: 'cyan',marginTop: '8px', fontWeight: 'bold' }}>{loggedInUser.email}</p>
                                 }
                             </li>
                         </ul>

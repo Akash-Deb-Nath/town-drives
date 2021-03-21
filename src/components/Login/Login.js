@@ -95,6 +95,7 @@ function Login() {
                     const newUserInfo = { ...user };
                     newUserInfo.error = '';
                     newUserInfo.success = true;
+                    newUserInfo.isSignedIn = true;
                     setUser(newUserInfo);
                     setLoggedInUser(newUserInfo);
                     history.replace(from);
