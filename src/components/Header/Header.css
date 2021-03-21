@@ -1,0 +1,12 @@
+.header{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../../images/modern-highway-cityscape.jpg);
+    height: 100px;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.header h1{
+    color: white;
+}
+.nav-text{
+    color: white;
+}

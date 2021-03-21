@@ -1,0 +1,36 @@
+.login-style{
+    text-align: center;
+}
+.GoogleSignInBtn{
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: white;
+}
+.login-form{
+    margin: 30px 500px;
+    border-radius: 10px;
+    width: 350px;
+    padding: 25px;
+    background-color: #E5E5E5;
+}
+.login-form input{
+    display: block;
+    margin-top: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+}
+.error{
+    color: red;
+}
+
+@media only screen and (max-width: 576px) {
+    .login-form{
+        margin: 30px 75px;
+        border: 1px solid gray;
+        width: 350px;
+        padding: 25px;
+  }
+}

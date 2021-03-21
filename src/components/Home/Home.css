@@ -1,0 +1,17 @@
+.bg-img{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../../images/modern-highway-cityscape.jpg);
+    height: 600px;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.home-style{
+    margin-left: 300px;
+}
+@media only screen and (max-width: 576px) {
+    .bg-img{
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../../images/modern-highway-cityscape.jpg);
+        height: fit-content;
+        background-position: center center;
+        background-size: 100% 100%;
+    }
+}

@@ -1,0 +1,8 @@
+.vehicle-card img{
+    width: 200px;
+    height: 200px;
+}
+.vehicle-card{
+    background-color: #F0F0F0;
+    text-align: center;
+}

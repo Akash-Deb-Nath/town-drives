@@ -1,0 +1,33 @@
+[{
+    "id": 1,
+    "name": "Motor Cycle",
+    "price": 190,
+    "img": "https://www.honda2wheelersindia.com/assets/images/products/Motorcycle/unicornBSVI.jpg",
+    "vehicle": 4,
+    "seat": 2,
+    "date": "3/1/2021"
+  }, {
+    "id": 2,
+    "name": "Car",
+    "price": 714,
+    "img": "https://imgd.aeplcdn.com/0x0/cw/ec/37561/Toyota-Camry-Right-Front-Three-Quarter-146683.jpg?wm=0",
+    "vehicle": 1,
+    "seat": 4,
+    "date": "12/25/2020"
+  }, {
+    "id": 3,
+    "name": "Bus",
+    "price": 467,
+    "img": "https://www.uttaramotorsltd.com/wp-content/uploads/2015/12/LT-Bus.png",
+    "vehicle": 2,
+    "seat": 20,
+    "date": "9/9/2020"
+  }, {
+    "id": 4,
+    "name": "Metro Rail",
+    "price": 412,
+    "img": "https://bangladeshpost.net/webroot/uploads/featureimage/2019-06/5d18c377bd697.jpg",
+    "vehicle": 5,
+    "seat": 50,
+    "date": "1/20/2021"
+  }]
